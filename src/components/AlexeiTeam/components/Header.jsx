@@ -10,6 +10,8 @@ const H = styled.header`
 
 export default function Header() {
   return (
+    <>
     <H/>
+    </>
   )
 }

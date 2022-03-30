@@ -3,13 +3,14 @@ import styled from 'styled-components'
 import Imagen from './Imagen'
 
 const Nav = styled.aside`
-    position:absolute;
     top:0px;
     bottom:0px;
     left:0px;
     width:260px;
+    height: 100vh;
     background-color:#005596;
-    overflow:hidden;            
+    overflow: hidden !important;
+    position:relative;
 `
 const Hr = styled.hr`
     width:90%;           
