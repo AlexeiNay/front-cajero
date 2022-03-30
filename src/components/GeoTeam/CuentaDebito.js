@@ -11,7 +11,7 @@ export default class CuentaDebito extends Component {
           <form>
             <h1>Datos Tarjeta</h1>
             <Container>
-            <Label title ="Número de targeta:"/>
+            <Label title ="Número de tarjeta:"/>
             <Input></Input>
             <Label title = "Comision:"/>
             <Input></Input>
@@ -70,7 +70,7 @@ export default class CuentaDebito extends Component {
             <Container>
             <Label title = "Nombre"/>
             <Input/>
-            <Label title = "Parentezco"/>
+            <Label title = "Parentesco"/>
             <Input/>
             <Label title = "Fecha Nacimiento"/>
             <Input/>
@@ -85,7 +85,7 @@ export default class CuentaDebito extends Component {
             <Container>
             <Label title = "Nombre"/>
             <Input/>
-            <Label title = "Parentezco"/>
+            <Label title = "Parentesco"/>
             <Input/>
             <Label title = "Fecha Nacimiento"/>
             <Input/>
@@ -100,7 +100,7 @@ export default class CuentaDebito extends Component {
             <Container>
             <Label title = "Nombre"/>
             <Input/>
-            <Label title = "Parentezco"/>
+            <Label title = "Parentesco"/>
             <Input/>
             <Label title = "Fecha Nacimiento"/>
             <Input/>

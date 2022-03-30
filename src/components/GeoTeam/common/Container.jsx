@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 
-const cantainer = styled.div`
+const _Container = styled.div`
     display: inline-block
 `
 
@@ -11,7 +11,7 @@ export default class Container extends Component {
     }
   render() {
     return (
-      <div>{this.props.children}</div>
+      <_Container>{this.props.children}</_Container>
     )
   }
 }
